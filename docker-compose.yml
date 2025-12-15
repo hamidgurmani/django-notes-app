@@ -14,7 +14,7 @@ services:
       - notes-app-nw
 
   django_app:
-    buid:
+    build:
       context: .
        
     image: django_app
